@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Home Page -->
+  <header id="home">
+    <div class="container">
+      <img src="C:\Users\YASWANTH SAI\Desktop\portfolio-website\O200104.jpg" alt="Profile Picture" class="profile-pic">
+      <h1>Hi, I'm GONUGUNTLA YASWANTH SAI</h1>
+      <p>Aspiring Software Engineer with a
+        strong foundation in computer
+        science and hands-on experience in
+        full-stack development, data science,
+        and Python programming. Proven
+        ability to design and deploy web
+        applications, implement backend
+        solutions, and solve complex
+        technical challenges. Passionate
+        about learning new technologies and
+        contributing to impactful projects.
+        </p>
+      <div class="social-links">
+        <a href="https://github.com/YASWANTH104" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/yaswanth-sai-gonuguntla" target="_blank">LinkedIn</a>
+        <a href="https://twitter.com/yaswanthsaiGon1" target="_blank">Twitter</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="project-list">
+        <div class="project">
+          <h3>Nxt Trendz ( ECommerce Clone - Amazon, Flipkart)</h3>
+          <p>Developed a cutting-edge e-commerce platform inspired by Amazon and Flipkart.<br>
+            ● Built pages for Login, Products, and Product details with React Router, React components, form inputs,
+            and event handlers.<br>
+            ● Enabled secure authentication and authorization with JWT tokens and REST API calls.<br>
+            <b>Technologies used:</b> React JS, JS, CSS, Bootstrap, Routing, REST API Calls, Local Storage, JWT Token,
+            Authorization, Authentication</p>
+          <a href="https://gyaswanthsai.ccbp.tech" target="_blank">View Code</a>
+        </div>
+        <div class="project">
+          <h3>Jobby App</h3>
+          <p>Constructed an all-in-one job searching platform, Jobby App.<br>
+            ● Built pages for Login, Home, Jobs, and Job item details with React components, form inputs, and event
+            handlers.<br>
+            ● Ensured secure authentication with JWT tokens and REST API calls.<br>
+            ● Persisted login state with local storage and protected routes with React Router.<br>
+            <b>Technologies used: </b>React JS, JS, CSS, Bootstrap, Routing, REST API Calls, Local Storage, JWT Token,
+            Authorization, Authentication</p>
+          <a href="https://yaswanthjobby.ccbp.tech" target="_blank">View Code</a>
+        </div>
+        <div class="project">
+          <h3>Emoji Game</h3>
+          <p>Designed a fun, challenging memory game with randomized emoji clicks.<br>
+            ● Utilized React components, props, conditional rendering, and state updates to create dynamic gameplay.<br>
+            ● Enhanced with CSS for a visually appealing design.<br>
+            <b>Technologies used:</b> React JS, CSS</p>
+          <a href="https://yaswanth104.ccbp.tech" target="_blank">View Code</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="current-year"></span> GONUGUNTLA YASWANTH SAI. All rights reserved.</p>
+      <p>Current Date and Time: <span id="current-date-time"></span></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
